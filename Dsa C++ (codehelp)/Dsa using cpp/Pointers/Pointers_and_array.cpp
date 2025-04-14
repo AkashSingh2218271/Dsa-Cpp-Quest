@@ -19,7 +19,7 @@ int main() {
     double *q = &a[0];
     cout << "size of pointer (q) " << sizeof(q) << endl;
     cout << "size of (*q) " << sizeof(*q) << endl; // printing the size after dereferencing (which is size of double)
-    cout << "size of (&ptr) " << sizeof(&q) << endl;
+    cout << "size of (&q) " << sizeof(&q) << endl;
 
     int arrOne[4];
     // arrOne = arrOne + 1 // error dega
